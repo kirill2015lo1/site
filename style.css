@@ -1,0 +1,79 @@
+body{
+    background-image:url(image/37508832.jpg);    
+    background-color: rgba(6, 3, 0, 0.5);
+    background-blend-mode: multiply;
+    background-size: contain;
+}
+ul.icons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+ul.icons li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;  
+}
+.icons li {
+    border-right: 1px solid #bbb;
+    text-align: center;
+    border-bottom: 1px solid #555;
+    float: left;
+    
+}
+li:last-child {
+    border-bottom: none;
+}
+li.active{
+    background-color: #4CAF50;
+}
+ul.icons li a:hover{
+    background-color: #111; 
+    
+}
+.reviews {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+}
+.review {
+    padding: 10px;
+    border-bottom: 1px solid #eaeaea;
+}
+.review:last-child {
+    border-bottom: none;  
+    
+}
+.review-text {
+    font-size: 16px;
+    margin-bottom: 5px;
+    
+}
+.review-author {
+    font-size: 14px;
+    color: #999;
+    
+}
+.ico img{
+    float: right;
+    
+}
+.main{
+    color: white;
+    text-align: center;
+    text-shadow: black;
+    
+}
+p{
+    font-size: x-large;
+}
+.con {
+    color: white;
+    text-align: center;
+    text-shadow: black;
+}
